@@ -37,4 +37,5 @@ def delete_task(task_id):
     db.session.commit()
     return '', 204
 
+
 app.register_blueprint(task_routes)
